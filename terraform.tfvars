@@ -10,7 +10,7 @@ subnetwork_name = "vpc-sub-piyu-terraform"
 
 subnetwork_ip_cidr = "10.0.0.0/28"
 
-cloud_run_backend_image = "gcr.io/us-central1-docker.pkg.dev/prj-qa-workshop-poc/cloud-run-source-deploy/doc/doc-backend:latest"
+cloud_run_backend_image = "gcr.io/prj-qa-workshop-poc/div-backend:latest"
 
 cloud_run_frontend_image = "gcr.io/prj-qa-workshop-poc/divagarfe:latest"
 
